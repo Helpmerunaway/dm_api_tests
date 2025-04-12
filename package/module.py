@@ -14,7 +14,18 @@ def printing_message(name):
     print(message)
 
 # запуск исполяемого кода в текущем модуле
-if __name__ == '__main__':
+# if __name__ == '__main__':
+#     match name:
+#         case 'Ivan':
+#             printing_message(name)
+#         case 'Artur':
+#             printing_message(name)
+#         case 'Nikita':
+#             printing_message(name)
+#         case _:
+#             print('Fuck you')
+
+def toxic_function(name):
     match name:
         case 'Ivan':
             printing_message(name)
